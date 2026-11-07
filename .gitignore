@@ -1,0 +1,25 @@
+# Virtual environment (lives in the project root in this repo)
+Include/
+Lib/
+Scripts/
+pyvenv.cfg
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Secrets and local data
+.env
+*.db
+*.sqlite
+
+# Node (if the dashboard uses it)
+node_modules/
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
